@@ -1,0 +1,53 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Deepika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Brain Tumor Detection</h2>
+
+        <div class="project-card">
+
+
+            <h3>🧠 Brain Cancer Detection from MRI scans | <a href="https://huggingface.co/spaces/deepikagouda19/brain-tumor-detector" target="_blank">
+                Link
+            </a></h3>
+            <p>● Web-based AI application that allows users to upload an MRI scan image and get a prediction of whether brain cancer is present using a pre-trained Keras model.</p>
+            <p>● Upload a grayscale brain MRI image and receive a prediction: <strong>“Brain Cancer”</strong> or <strong>“No Brain Cancer”</strong>.</p>
+            <hr>
+            <p>Features:</p>
+
+
+            <li>Auto-downloads model from Google Drive if not found locally .
+            </li>
+            <li>Preprocessing includes grayscale conversion, resizing, and reshaping for CNN input.</li>
+            <li>Displays uploaded image with prediction result.</l>
+
+                <hr>
+                <p><strong>Tech Stack:</strong> Flask, Keras, TensorFlow, Pillow, NumPy, gdown</p>
+                <p><strong>Model:</strong> Trained CNN with binary classification (Brain Cancer vs No Brain Cancer)</p>
+                <hr>
+                <p><strong>Project Files:</strong>
+                    <a href="https://github.com/GBDeepaPriya/Projects/tree/157826fe052969b8790e159ec83a79872edb73ab/Project-%20Brain%20Tumor%20Detection%20app/Brain%20Tumor%20Detection" target="_blank">Brain</a>
+                </p>
+                <hr>
+                <p><strong>Output:</strong></p>
+                <img class="zoom output-image" src="images/Brain_cancer.jpg" alt="Brain Cancer MRI" />
+                <img class="zoom output-image" src="images/No_Brain_cancer.jpg" alt="No Brain Cancer MRI" />
+        </div>
+    </section>
+</body>
+
+</html>
